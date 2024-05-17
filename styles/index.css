@@ -1,0 +1,169 @@
+/*  
+    @description: none
+    @author: Richard Wu
+    @update: 2024年05月10日
+    */
+
+@font-face {
+    font-family: 'Freeman-Regular';
+    src: url('../fonts/Freeman-Regular.ttf') format('truetype');
+    /* font-display: swap; */
+}
+
+@font-face {
+    font-family: 'ZCOOLKuaiLe-Regular';
+    src: url('../fonts/Freeman-Regular.ttf') format('truetype');
+    src: url('../fonts/ZCOOLKuaiLe-Regular.ttf') format('truetype');
+    /* font-display: swap; */
+}
+
+html {
+    font-family: 'Freeman-Regular', 'ZCOOLKuaiLe-Regular';
+    background-color: black;
+}
+
+/* html这个位于最外侧的大盒子 */
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    /* 两个值的话，就是先上下，后左右 */
+    background-color: white;
+    padding: 0 40px 40px 40px;
+    /* 四个值的话，就是先上，然后顺时针，右，下，左 */
+    border: 5px solid rgb(193, 22, 22);
+}
+
+/* body是大盒子html里的最大的盒子 */
+
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 1px 1px 1px rgb(207, 73, 73);
+}
+
+h2 {
+    color: rgb(196, 20, 227);
+}
+
+#很重要 {
+    color: burlywood;
+}
+
+.qita {
+    color: tomato;
+    background-color: black;
+}
+
+#father1 li {
+    color: cadetblue;
+}
+
+#ppp {
+    color: blue;
+    font-size: 14px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-weight: bold;
+
+    text-align: center;
+    text-indent: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+table,
+th,
+td {
+    border: 1px solid silver;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+/* 最喜爱的诗句的配图 */
+/* text-align: center; 失误了，我以为要想让图片居中，是把text-align这个属性写在img标签选择器里，其实不是的，要把img标签放在div标签里面，然后选中div标签   */
+/* 但是img标签有一个属性vertical-align的属性，用于设置竖直方向上是如何对其的 */
+#pic {
+    text-align: center;
+}
+
+/* body{background-image: url(wallhaven-l875l2.png);
+    background-position: center center;} */
+
+p:hover,
+h1:hover,
+h2:hover,
+li:hover {
+    background-color: white;
+}
+
+#father000 {
+    width: 800px;
+    height: 600px;
+    background-color: chocolate;
+    padding: 10px;
+    border: 1px solid silver;
+}
+
+#上1 {
+    width: 800px;
+    height: 100px;
+    background-color: rgb(21, 82, 196);
+}
+
+#中 {
+    width: 800px;
+    height: 380px;
+    margin-top: 10px;
+    background-color: chocolate;
+}
+
+#中1 {
+    width: 595px;
+    height: 380px;
+    background-color: yellow;
+    float: left;
+    margin-right: 10px;
+}
+
+#中2 {
+    width: 195px;
+    height: 380px;
+    background-color: rgba(131, 23, 136, 0.401);
+    float: left;
+}
+
+#消浮 {
+    clear: both;
+}
+
+#下1 {
+    margin-top: 10px;
+    width: 800px;
+    height: 100px;
+    background-color: rgb(16, 27, 94);
+}
+
+textarea {
+    width: 200px;
+    height: 130px;
+    overflow: auto;
+    resize: none;
+}
+
+
+
+/* p{color: white;} */
+
+/* 这是注释 */
